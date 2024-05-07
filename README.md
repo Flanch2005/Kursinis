@@ -88,3 +88,15 @@ class Contact(Person):
     def get_contact_formated(self):
         return self._name + " " + self._last_name + " " + self._birthday + " " + self._email + " " + self._phone_number
 ```
+
+## Faced Challenges
+
+ * I faced some challenges in creating a more intuitive and user-friendly interface since I was using the `customtkinter` libraries for the first time
+
+ * At first I couldn't figure out how to use unit tests. I thoroughly studied the documentation for `unittest`, and then finally did it.
+
+ * It was challenging to implement a multi-account system to make it work correctly, there was a lot of trial and error, but in the end I managed to do it by creating a database on the windows system disk.
+
+## Conclusions
+
+I have learned a lot from this project, and I have gained a better understanding of how to use different libraries and projects, and study their documentation. I also learned how it is important to break down the project into different pieces for manageability. Furthermore, my program could be extended by adding more features, such as more functionalyti, for example, sending a letter of congratulations to your friend's email on your behalf, etc.
